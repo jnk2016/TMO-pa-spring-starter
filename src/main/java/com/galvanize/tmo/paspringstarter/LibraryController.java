@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 
 @RestController
-@RequestMapping("/books")
+@RequestMapping("/api/books")
 public class LibraryController {
     @Autowired
     LibraryService libraryService;
